@@ -1,0 +1,83 @@
+intro 
+
+project
+wht
+tool
+schema-which why
+
+string operation in sql 
+-remove one last char n capitalize 1st letter
+-trim func
+
+data warehousing 
+joins
+
+python-oop or structural? , operators 
+remove duplicates from list
+granularity,grain
+
+customer & customer transaction..few customers dont have transaction in the last yr...fetch customers who have transactions in the past yr
+how to find if there are duplicate records in a table
+delete drop trunc
+SCD types when to use which
+python paplet
+list tuple
+break continue pass
+types of dimension and fact tables 
+-conformed
+-role playing
+
+
+data types in python
+how to connect data source to bi tool
+filters vs slicers
+type of filters
+report?use?need?
+interaction,types
+RLS
+how to publish to power bi server..where
+wht is parameter
+how to publish to tableau server
+join vs blend
+LOD,Expressions 
+tooltips
+types of filters in tableau
+customized visuals
+concatenate in diff tools
+DAX 
+workspace in power bi
+decorators
+set analysis
+grouping
+lists
+iterables,iterators
+
+diff betwn join n merge
+subqueries,correlated queries
+conditional statements
+loops
+input putput operators
+lambda
+navigation in Qlik
+building blocks of Qlik
+custom visualizations
+bookmarks
+trim only fisrtname from lastname
+refreshing data,scheduling,increamental full
+
+
+data handling in sql..basic concepts in sql
+seq of exen n writing 
+having n group by
+CTEs
+DAX Queries - CAL,SUMMARIZE,SUM & SUMX
+Concatenatin strings
+loops
+and or symbols in python n power bi
+union & union all...which is faster
+function as argument in python
+pass by ref / pass by obj ref
+lambda
+calculated fields n columns n measures..when to use wht
+same eqn in cal field n measure
+waterfall chart
