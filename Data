@@ -1,0 +1,19 @@
+Objective:
+
+Understand the banking datasets, identify data quality issues, establish business KPIs, define risk interpretation rules, and validate data grain and relationships.
+
+Activities:
+
+- Identify and understand all available datasets.
+- Define banking KPIs and map them to required fields.
+- Identify data quality issues such as missing values, duplicates and inconsistent formats.
+- Analyze debit and credit transaction patterns.
+- Validate fact table grain and dataset relationships.
+- Document potential regulatory and data quality risks.
+
+Expected Deliverables:
+
+- Business KPI definitions
+- Risk interpretation rules
+- Data profiling report
+- Grain and join validation report
