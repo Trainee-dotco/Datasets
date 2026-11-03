@@ -1,0 +1,119 @@
+6
+Objective:
+
+Develop interactive banking transaction, risk and exposure dashboards using Power BI, Tableau and Qlik Sense.
+
+Activities:
+
+Power BI Development
+
+- Connect the prepared banking datasets.
+- Develop the required report pages.
+- Create executive risk overview.
+- Develop account exposure analysis.
+- Create branch risk distribution.
+- Build transaction trend analysis.
+
+Tableau Development
+
+- Connect and prepare the banking datasets using Tableau Prep.
+- Develop worksheets and calculated fields.
+- Create executive risk overview.
+- Develop account exposure and branch risk dashboards.
+- Build transaction trend visualizations.
+
+Qlik Sense Development
+
+- Load prepared datasets using Qlik Load Script.
+- Develop the required data model and associations.
+- Create executive risk overview.
+- Develop account exposure and branch risk dashboards.
+- Build transaction trend visualizations.
+
+Expected Deliverables:
+
+- Power BI dashboards.
+- Tableau dashboards.
+- Qlik Sense dashboards.
+- Consistent KPI definitions and business logic across all three platforms.
+- Interactive banking analytics reports.
+
+7
+Objective:
+
+Enhance dashboard interactivity and optimize reporting performance to support detailed banking risk and exposure analysis.
+
+Activities:
+
+Interactivity Engineering
+
+- Implement drill-down from Bank → Branch → Account → Transaction.
+- Configure drill-through to transaction-level details.
+- Implement high-value transaction threshold toggle.
+- Create risk flag filter panels for velocity, amount and geo risk.
+- Implement account exposure drill-through.
+- Configure Credit vs Debit dashboard switch.
+- Implement time-window risk comparison.
+- Create transaction timeline navigation.
+- Develop risk explanation tooltips.
+- Implement dormant account activation toggle.
+- Enable KPI reconciliation interactions to view excluded transaction reasons.
+
+Performance Optimization
+
+- Measure dashboard load time.
+- Measure filter response latency.
+- Optimize visuals and calculations.
+- Identify and resolve performance bottlenecks.
+
+Expected Deliverables:
+
+- Interactive dashboards across all three BI platforms.
+- Functional drill-down and drill-through.
+- Working risk filters and parameter controls.
+- Documented performance measurements.
+- Optimized dashboards.
+
+8
+Objective:
+
+Validate the accuracy, consistency, performance and auditability of the banking analytics solution across Power BI, Tableau and Qlik Sense, and prepare the final project deliverables.
+
+Activities:
+
+Testing & Validation
+
+- Validate transaction and risk KPIs against source data.
+- Reconcile KPI results across Power BI, Tableau and Qlik Sense.
+- Verify credit and debit calculations.
+- Validate high-risk transaction identification.
+- Test account-level and branch-level exposure calculations.
+- Validate risk thresholds and parameter-driven logic.
+- Test dashboard filters, drill-downs and drill-throughs.
+- Validate included and excluded transaction logic.
+- Verify data quality flags and audit trails.
+- Test dashboard performance.
+
+BI Product Hardening
+
+- Finalize KPI definitions and business logic.
+- Remove unused visuals.
+- Perform final dashboard validation.
+- Verify consistency across all three platforms.
+
+Final Delivery & Storytelling
+
+- Prepare the final project documentation.
+- Develop the business narrative covering risk problems, exposure drivers and mitigation actions.
+- Prepare the executive walkthrough.
+- Prepare regulatory and interview-level Q&A.
+- Present the final analytics solution.
+
+Expected Deliverables:
+
+- KPI reconciliation report.
+- Testing and validation report.
+- Final Power BI, Tableau and Qlik dashboards.
+- Complete technical documentation.
+- Final project presentation and demonstration.
+- Audit-ready and explainable BI solution.
