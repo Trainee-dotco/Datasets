@@ -1,0 +1,111 @@
+2
+Objective:
+
+Load and understand the raw banking datasets while preserving the original data and preparing them for subsequent data engineering activities.
+
+Activities:
+
+- Load all seven banking datasets in their original form.
+- Preserve the RAW data layer without overwriting source files.
+- Understand dataset structures, columns and data types.
+- Profile missing values, duplicates and inconsistent records.
+- Identify orphan risk flags and invalid references.
+- Document data quality observations.
+
+Expected Deliverables:
+
+- Raw datasets successfully loaded.
+- Original datasets preserved.
+- Data profiling observations.
+- Initial data quality assessment.
+
+3
+Objective:
+
+Standardize financial transaction data, handle data quality issues, engineer anomaly and risk indicators, and establish auditable transformation logic.
+
+Activities:
+
+- Normalize transaction and risk timestamps.
+- Remove currency symbols and commas from financial amounts.
+- Convert transaction amounts into appropriate decimal formats.
+- Identify and handle duplicate transaction records.
+- Deduplicate risk flags while preserving audit information.
+- Handle missing account_id, customer_id and branch_id values using an UNKNOWN strategy.
+- Validate closed-account activity.
+- Identify debit/credit sign mismatches.
+- Flag extreme transaction values and negative balances.
+- Identify risk flags occurring before their associated transactions.
+- Parameterize risk thresholds.
+- Add data quality flags, risk flags and lineage columns.
+- Modularize transformation logic.
+
+Expected Deliverables:
+
+- Standardized financial data.
+- Clean transaction and risk flag datasets.
+- Anomaly and risk indicators.
+- Data quality and audit flags.
+- Documented transformation logic.
+
+4
+Objective:
+
+Develop a BI-optimized star schema to support banking transaction analytics, financial exposure analysis and risk reporting.
+
+Activities:
+
+- Design the star schema for banking analytics.
+- Create FactTransactions.
+- Create DimCustomer.
+- Create DimAccount.
+- Create DimBranch.
+- Create DimDate.
+- Evaluate the need for FactRiskFlags or rolled-up risk attributes.
+- Establish appropriate relationships between fact and dimension tables.
+- Add UNKNOWN dimension members for missing or unmatched records.
+- Prepare high-risk indicators.
+- Calculate risk count per transaction.
+- Prepare exposure measures.
+- Hide unnecessary technical fields.
+- Validate aggregation safety.
+
+Expected Deliverables:
+
+- Documented star schema.
+- Fact and dimension tables.
+- Validated table relationships.
+- UNKNOWN dimension handling.
+- Risk-ready semantic model.
+
+5
+Objective:
+
+Develop accurate, consistent and explainable banking KPIs and risk calculations to support financial and exposure analysis.
+
+Activities:
+
+- Calculate Total Transactions.
+- Calculate Total Transaction Amount.
+- Calculate Credit vs Debit totals.
+- Calculate Average Transaction Value.
+- Calculate High-Value Transaction Count.
+- Calculate High-Risk Transaction Percentage.
+- Implement inclusion and exclusion rules for transactions.
+- Implement risk aggregation per transaction.
+- Calculate exposure per account.
+- Analyze dormant account activity.
+- Implement parameter-driven risk thresholds.
+- Perform high-value threshold simulations.
+- Validate KPI sensitivity under different scenarios.
+- Build included vs excluded transaction visuals.
+- Reconcile risk-flagged vs clean transactions.
+- Validate KPI results against the raw datasets.
+
+Expected Deliverables:
+
+- Validated banking KPI measures.
+- Explainable risk computation logic.
+- Account-level exposure measures.
+- Parameter-driven risk thresholds.
+- KPI reconciliation results.
