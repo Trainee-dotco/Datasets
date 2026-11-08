@@ -1,0 +1,171 @@
+Banking Transaction, Risk & Exposure Analytics
+
+Slide 1 – Title
+
+Banking Transaction, Risk & Exposure Analytics
+
+An Integrated Business Intelligence Approach
+
+Presented by: Group 3
+Tools: Power BI | Tableau | Qlik Sense
+
+---
+
+Slide 2 – Introduction & Problem Statement
+
+Introduction
+
+Banking operations generate large volumes of transactional, customer and account data. Analysing this data helps monitor activity, identify risks and evaluate financial exposure.
+
+Problem Statement
+
+Fragmented banking datasets make it difficult to obtain a consolidated view of transaction activity, risk patterns and branch-level exposure.
+
+Our Approach: Integrate and analyse banking data through interactive BI dashboards.
+
+---
+
+Slide 3 – Project Objectives
+
+- Analyse banking transactions across branches and customers.
+- Identify high-risk transactions and risk patterns.
+- Evaluate regional and branch-level risk.
+- Analyse financial exposure.
+- Develop interactive dashboards across three BI platforms.
+- Ensure consistency in KPIs and business logic.
+
+---
+
+Slide 4 – Project Workflow
+
+Data Sources → Data Profiling → Data Cleaning → Data Modelling → KPI Development → Dashboard Development → Validation
+
+- Understand source datasets.
+- Identify and resolve data quality issues.
+- Establish table relationships.
+- Define business metrics.
+- Develop and validate dashboards across platforms.
+
+---
+
+Slide 5 – Data Preparation & Cleaning
+
+Key Activities
+
+- Profiling: Identified missing values, duplicates and inconsistencies.
+- Standardization: Normalized data types and date formats.
+- Missing Values: Applied appropriate imputation and replacement logic.
+- Duplicates: Retained appropriate records using timestamp-based sorting.
+- Validation: Checked account, customer and branch mappings.
+- Derived Fields: Created negative balance and geographical mismatch flags.
+- Status Handling: Applied consistent business rules.
+
+Outcome: Cleaned and standardized datasets ready for analysis.
+
+---
+
+Slide 6 – Data Modelling & KPI Development
+
+Data Modelling
+
+Established relationships between:
+
+- Transactions
+- Accounts
+- Customers
+- Branches
+- Risk Flags
+
+Validated cardinality, filter direction and unmatched records.
+
+Key KPIs
+
+- Total Transactions
+- Total Risk Flags
+- High-Risk Transactions
+- Branch Risk Rate
+- High-Risk Branches
+- Balance Exposure
+
+---
+
+Slide 7 – Cross-Platform Implementation
+
+Power BI
+
+- Data modelling and DAX.
+- Interactive visualizations.
+
+Tableau
+
+- Calculated fields and aggregations.
+- Interactive dashboards.
+
+Qlik Sense
+
+- Load script transformations.
+- Associative model and set analysis.
+
+Key Objective: Maintain consistent datasets, business logic and KPI calculations across all three platforms.
+
+---
+
+Slide 8 – Transaction Overview Dashboard
+
+Purpose: Analyse overall banking transaction activity.
+
+Key Visualizations
+
+- Transaction volume and trends.
+- Transaction type distribution.
+- Channel-wise analysis.
+- Transaction amount patterns.
+- Customer and account activity.
+
+Business Value: Understand transaction patterns and monitor banking activity.
+
+---
+
+Slide 9 – Risk Analysis Dashboard
+
+Purpose: Analyse risk events, severity and contributing factors.
+
+Key Visualizations
+
+- Total Risk Flags.
+- Risk Severity Distribution.
+- High-Risk Transactions.
+- Risk Reason Analysis.
+- Risk Trends and Category Analysis.
+
+Business Value: Identify major risk contributors and highlight areas requiring investigation.
+
+---
+
+Slide 10 – Bank & Branch Risk Analysis Dashboard
+
+Purpose: Evaluate branch-level risk concentration and financial exposure.
+
+Key Visualizations
+
+- Total Branches and High-Risk Branches.
+- Branch Risk Rate.
+- High-Risk Transactions by Region.
+- Top 10 Risky Branches.
+- Risk Flag Treemap.
+- Branch vs Risk Reason Matrix.
+- Balance Exposure by Branch.
+
+Business Value: Compare branch risk, identify risk concentrations and assess financial exposure.
+
+---
+
+Conclusion
+
+- Transformed raw banking data into structured analytical datasets.
+- Developed consistent KPIs across three BI platforms.
+- Built interactive dashboards for transaction, risk and exposure analysis.
+
+Enabling data-driven risk monitoring and informed decision-making.
+
+Thank You
