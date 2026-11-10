@@ -1,0 +1,13 @@
+Conclusion
+
+The five dashboards provide a consolidated view of banking operations, transaction activity, account exposure, and financial risk.
+
+- Executive Risk Analysis – Delivers an overall view of transaction performance and key risk indicators.
+- Account Exposure Analysis – Highlights account balances, dormant accounts, and potential financial exposure.
+- Transaction History – Enables detailed examination of transaction patterns and customer activity.
+- Branch Risk Distribution – Identifies high-risk branches and regional variations in risk.
+- Transaction Trend Analysis – Tracks transaction behaviour, value trends, and credit-debit movement.
+
+Overall, the solution transforms raw banking data into actionable insights, enabling better risk monitoring, informed decision-making, and proactive identification of potential fraudulent activities.
+
+Consistent data preparation and metric definitions across Power BI, Tableau, and Qlik Sense also ensure comparable and reliable insights across all three platforms.
